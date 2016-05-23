@@ -47,7 +47,7 @@ class Product extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'name' => 'Name',
-            'category_id' => 'Category ID',
+            'category_id' => 'Category Name',//Category ID has been replaced with Category name
             'price' => 'Price',
         ];
     }
