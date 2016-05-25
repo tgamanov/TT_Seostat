@@ -65,6 +65,7 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'debug';
     $config['modules']['debug'] = [
         'class' => 'yii\debug\Module',
+        'allowedIPs' => [ '*',],//enable debug panel
     ];
 
     $config['bootstrap'][] = 'gii';

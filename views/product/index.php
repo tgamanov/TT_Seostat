@@ -51,7 +51,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //  'category_id',
             'price',
 
-//            ['class' => 'yii\grid\ActionColumn'],//CRUD buttons disabled
+            ['class' => 'yii\grid\ActionColumn'],//CRUD buttons disabled
         ],
     ]); ?>
 </div>
